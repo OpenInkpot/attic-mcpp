@@ -1,0 +1,18 @@
+Source: mcpp
+Section: core
+Priority: optional
+Maintainer: Mikhail Gusarov <dottedmag@dottedmag.net>
+Build-Depends: debhelper (>= 4.0)
+XCS-Cross-Host-Build-Depends: debhelper (>= 4.0)
+XCS-Cross-Build-Depends:
+Standards-Version: 3.7.2
+
+Package: mcpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Provides: cpp
+Description: Matsui's C preprocessor implementation
+ MCPP is Kiyoshi Matsui's C preprocessor, another implementation of C
+ preprocessor, which expands macros and includes for C compiler.  This
+ is useful debugging program which use complecated macros. It supports
+ multiple standards: K&R, ISO C90, and ISO C99.
