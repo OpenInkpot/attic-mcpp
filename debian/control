@@ -2,10 +2,10 @@ Source: mcpp
 Section: core
 Priority: optional
 Maintainer: Mikhail Gusarov <dottedmag@dottedmag.net>
-Build-Depends: debhelper (>= 4.0)
-XCS-Cross-Host-Build-Depends: debhelper (>= 4.0)
+Build-Depends: debhelper (>= 7)
+XCS-Cross-Host-Build-Depends: debhelper (>= 7)
 XCS-Cross-Build-Depends:
-Standards-Version: 3.7.2
+Standards-Version: 3.8.0
 
 Package: mcpp
 Architecture: any
